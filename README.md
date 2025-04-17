@@ -1,16 +1,16 @@
-# Hướng Dẫn Sử Dụng
 
-## Giới Thiệu
-Dự án này cung cấp công cụ để render NFT. Hãy làm theo các bước dưới đây để cài đặt và sử dụng.
+# redner NTF
+## Introduction
+This project provides a tool for rendering NFTs. Follow the steps below to install and use it.
 
-## Cài Đặt
+## Installation
 1. Clone repository:
     ```bash
     git clone https://github.com/thevapelabs-io/render-nft.git
     cd render-nft
     ```
 
-2. Cài đặt các dependencies:
+2. Install dependencies:
     ```bash
     npm install
     ```
@@ -19,9 +19,9 @@ Dự án này cung cấp công cụ để render NFT. Hãy làm theo các bướ
     yarn install
     ```
 
-## Chuẩn bị tài nguyên trước khi chạy chương trình
-1.  folder các layer hình ảnh - vd: `./layers/boy`
-2.  tại file `index.js` -> trỏ đường dẫn dến đến folder hình ảnh vào input
+## Preparing Resources Before Running the Program
+1.  Folder containing image layers - ex: `./layers/boy`
+2.  In the index.js file, specify the path to the image folder in the input:
     ```bash
         const dir = {
             input: `./layers/boy`,
@@ -29,13 +29,12 @@ Dự án này cung cấp công cụ để render NFT. Hãy làm theo các bướ
         };
     ```
 
-## Lưu ý
-CÁC FOLDER HÌNH ẢNH NHƯ BACKGROUNDS, SKINS,... PHẢI ĐƯỢC SẮP XẾP ĐÚNG THỨ TỰ TỪ TRÊN XUỐNG DƯỚI
-THÌ ẢNH MỚI RENDER CHÍNH XÁC!
+## Note
+IMAGE FOLDERS SUCH AS BACKGROUNDS, SKINS, ETC., MUST BE ARRANGED IN THE CORRECT ORDER FROM TOP TO BOTTOM FOR THE IMAGES TO RENDER ACCURATELY!
 
 
-## Sử Dụng
-1. Chạy lệnh để render NFT:
+## Usage
+1. Run the command to render NFTs:
     ```bash
     npm run start
     ```
@@ -44,5 +43,5 @@ THÌ ẢNH MỚI RENDER CHÍNH XÁC!
     yarn start
     ```
 
-2. Kết quả sẽ được lưu trong thư mục `output/`.
+2. The results will be saved in the output/ directory.
 
