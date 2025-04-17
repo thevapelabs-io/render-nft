@@ -14,7 +14,7 @@ This project provides a tool for rendering NFTs. Follow the steps below to insta
     ```bash
     npm install
     ```
-    hoặc
+    or
     ```bash
     yarn install
     ```
@@ -38,7 +38,7 @@ IMAGE FOLDERS SUCH AS BACKGROUNDS, SKINS, ETC., MUST BE ARRANGED IN THE CORRECT 
     ```bash
     npm run start
     ```
-    hoặc
+    or
     ```bash
     yarn start
     ```
