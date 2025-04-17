@@ -6,7 +6,7 @@ Dự án này cung cấp công cụ để render NFT. Hãy làm theo các bướ
 ## Cài Đặt
 1. Clone repository:
     ```bash
-    git clone https://github.com/your-repo/render-nft.git
+    git clone https://github.com/thevapelabs-io/render-nft.git
     cd render-nft
     ```
 
@@ -20,12 +20,14 @@ Dự án này cung cấp công cụ để render NFT. Hãy làm theo các bướ
     ```
 
 ## Chuẩn bị tài nguyên trước khi chạy chương trình
-1.  folder các layer hình ảnh - vd: ./layers/boy
-2.  tại file index.js -> trỏ đường dẫn dến đến folder hình ảnh vào input
-    const dir = {
-        input: `./layers/boy`,
-        output: `./output`,
-    };
+1.  folder các layer hình ảnh - vd: `./layers/boy`
+2.  tại file `index.js` -> trỏ đường dẫn dến đến folder hình ảnh vào input
+    ```bash
+        const dir = {
+            input: `./layers/boy`,
+            output: `./output`,
+        };
+    ```
 
 ## Lưu ý
 CÁC FOLDER HÌNH ẢNH NHƯ BACKGROUNDS, SKINS,... PHẢI ĐƯỢC SẮP XẾP ĐÚNG THỨ TỰ TỪ TRÊN XUỐNG DƯỚI
