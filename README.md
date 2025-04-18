@@ -21,7 +21,11 @@ This project provides a tool for rendering NFTs. Follow the steps below to insta
 
 ## Preparing Resources Before Running the Program
 1.  Folder containing image layers - ex: `./layers/boy`
-2.  In the index.js file, specify the path to the image folder in the input:
+2.  In `index.js` file -> number of NFT's to generate
+    ```bash
+        const supply = 100; // Number of NFT's to generate
+    ```
+3.  In the index.js file, specify the path to the image folder in the input:
     ```bash
         const dir = {
             input: `./layers/boy`,

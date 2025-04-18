@@ -21,6 +21,10 @@ Dự án này cung cấp công cụ để render NFT. Hãy làm theo các bướ
 
 ## Chuẩn bị tài nguyên trước khi chạy chương trình
 1.  folder các layer hình ảnh - vd: `./layers/boy`
+2.  tại file `index.js` -> số lượng xuất ra NFT
+    ```bash
+        const supply = 100; // Number of NFT's to generate
+    ```
 2.  tại file `index.js` -> trỏ đường dẫn dến đến folder hình ảnh vào input
     ```bash
         const dir = {
